@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C03D0632A39885C00474EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03D0622A39885C00474EDA /* AppDelegate.swift */; };
+		5C03D0652A39885C00474EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03D0642A39885C00474EDA /* SceneDelegate.swift */; };
+		5C03D0672A39885C00474EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C03D0662A39885C00474EDA /* ViewController.swift */; };
+		5C03D06A2A39885C00474EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C03D0682A39885C00474EDA /* Main.storyboard */; };
+		5C03D06C2A39885D00474EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C03D06B2A39885D00474EDA /* Assets.xcassets */; };
+		5C03D06F2A39885D00474EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C03D06D2A39885D00474EDA /* LaunchScreen.storyboard */; };
+		5C67237A2A39CC310050A1FA /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C6723792A39CC300050A1FA /* GoogleService-Info (2).plist */; };
+		698E657F0AAEA084E04DB70C /* Pods_FacebookAndGoogleSocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E47E4A040F43176419D6DC1 /* Pods_FacebookAndGoogleSocialLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CDBA314C4D67230FE15E03 /* Pods-FacebookAndGoogleSocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookAndGoogleSocialLogin.release.xcconfig"; path = "Target Support Files/Pods-FacebookAndGoogleSocialLogin/Pods-FacebookAndGoogleSocialLogin.release.xcconfig"; sourceTree = "<group>"; };
+		4E47E4A040F43176419D6DC1 /* Pods_FacebookAndGoogleSocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookAndGoogleSocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03D05F2A39885C00474EDA /* FacebookAndGoogleSocialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookAndGoogleSocialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C03D0622A39885C00474EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C03D0642A39885C00474EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C03D0662A39885C00474EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C03D0692A39885C00474EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C03D06B2A39885D00474EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C03D06E2A39885D00474EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C03D0702A39885D00474EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6723792A39CC300050A1FA /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		8F13FBF4299F607077B41196 /* Pods-FacebookAndGoogleSocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookAndGoogleSocialLogin.debug.xcconfig"; path = "Target Support Files/Pods-FacebookAndGoogleSocialLogin/Pods-FacebookAndGoogleSocialLogin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C03D05C2A39885C00474EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698E657F0AAEA084E04DB70C /* Pods_FacebookAndGoogleSocialLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C03D0562A39885B00474EDA = {
+			isa = PBXGroup;
+			children = (
+				5C03D0612A39885C00474EDA /* FacebookAndGoogleSocialLogin */,
+				5C03D0602A39885C00474EDA /* Products */,
+				F1758A2F2B0A2B62B47820CC /* Pods */,
+				7B359AE102BEBA213EA11F86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C03D0602A39885C00474EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C03D05F2A39885C00474EDA /* FacebookAndGoogleSocialLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C03D0612A39885C00474EDA /* FacebookAndGoogleSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5C03D0622A39885C00474EDA /* AppDelegate.swift */,
+				5C03D0642A39885C00474EDA /* SceneDelegate.swift */,
+				5C03D0662A39885C00474EDA /* ViewController.swift */,
+				5C03D0682A39885C00474EDA /* Main.storyboard */,
+				5C03D06B2A39885D00474EDA /* Assets.xcassets */,
+				5C03D06D2A39885D00474EDA /* LaunchScreen.storyboard */,
+				5C03D0702A39885D00474EDA /* Info.plist */,
+				5C6723792A39CC300050A1FA /* GoogleService-Info (2).plist */,
+			);
+			path = FacebookAndGoogleSocialLogin;
+			sourceTree = "<group>";
+		};
+		7B359AE102BEBA213EA11F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E47E4A040F43176419D6DC1 /* Pods_FacebookAndGoogleSocialLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1758A2F2B0A2B62B47820CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F13FBF4299F607077B41196 /* Pods-FacebookAndGoogleSocialLogin.debug.xcconfig */,
+				02CDBA314C4D67230FE15E03 /* Pods-FacebookAndGoogleSocialLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C03D05E2A39885C00474EDA /* FacebookAndGoogleSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C03D0732A39885D00474EDA /* Build configuration list for PBXNativeTarget "FacebookAndGoogleSocialLogin" */;
+			buildPhases = (
+				638ACE8C40356CFBD6C4C6AA /* [CP] Check Pods Manifest.lock */,
+				5C03D05B2A39885C00474EDA /* Sources */,
+				5C03D05C2A39885C00474EDA /* Frameworks */,
+				5C03D05D2A39885C00474EDA /* Resources */,
+				540CD9C6A8F8021B6B8EF3A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookAndGoogleSocialLogin;
+			productName = FacebookAndGoogleSocialLogin;
+			productReference = 5C03D05F2A39885C00474EDA /* FacebookAndGoogleSocialLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C03D0572A39885B00474EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5C03D05E2A39885C00474EDA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C03D05A2A39885B00474EDA /* Build configuration list for PBXProject "FacebookAndGoogleSocialLogin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C03D0562A39885B00474EDA;
+			productRefGroup = 5C03D0602A39885C00474EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C03D05E2A39885C00474EDA /* FacebookAndGoogleSocialLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C03D05D2A39885C00474EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C67237A2A39CC310050A1FA /* GoogleService-Info (2).plist in Resources */,
+				5C03D06F2A39885D00474EDA /* LaunchScreen.storyboard in Resources */,
+				5C03D06C2A39885D00474EDA /* Assets.xcassets in Resources */,
+				5C03D06A2A39885C00474EDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		540CD9C6A8F8021B6B8EF3A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookAndGoogleSocialLogin/Pods-FacebookAndGoogleSocialLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookAndGoogleSocialLogin/Pods-FacebookAndGoogleSocialLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacebookAndGoogleSocialLogin/Pods-FacebookAndGoogleSocialLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638ACE8C40356CFBD6C4C6AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FacebookAndGoogleSocialLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C03D05B2A39885C00474EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03D0672A39885C00474EDA /* ViewController.swift in Sources */,
+				5C03D0632A39885C00474EDA /* AppDelegate.swift in Sources */,
+				5C03D0652A39885C00474EDA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C03D0682A39885C00474EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C03D0692A39885C00474EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C03D06D2A39885D00474EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C03D06E2A39885D00474EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C03D0712A39885D00474EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C03D0722A39885D00474EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C03D0742A39885D00474EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F13FBF4299F607077B41196 /* Pods-FacebookAndGoogleSocialLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FacebookAndGoogleSocialLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-disolution.FacebookAndGoogleSocialLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C03D0752A39885D00474EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CDBA314C4D67230FE15E03 /* Pods-FacebookAndGoogleSocialLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FacebookAndGoogleSocialLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-disolution.FacebookAndGoogleSocialLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C03D05A2A39885B00474EDA /* Build configuration list for PBXProject "FacebookAndGoogleSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03D0712A39885D00474EDA /* Debug */,
+				5C03D0722A39885D00474EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C03D0732A39885D00474EDA /* Build configuration list for PBXNativeTarget "FacebookAndGoogleSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C03D0742A39885D00474EDA /* Debug */,
+				5C03D0752A39885D00474EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C03D0572A39885B00474EDA /* Project object */;
+}

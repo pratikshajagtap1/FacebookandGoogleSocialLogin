@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FacebookAndGoogleSocialLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ww8-B5-E2f">
+                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3N-MT-BTy" customClass="FBSDKLoginButton">
+                                        <rect key="frame" x="20" y="678" width="121" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="I4c-4Q-IIE"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Facebook"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2P9-7e-70w">
+                                        <rect key="frame" x="249" y="678" width="121" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="RM4-Vn-7DO"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Google"/>
+                                        <connections>
+                                            <action selector="btnGoogle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ud-UT-CJ4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="b3N-MT-BTy" firstAttribute="top" secondItem="Ww8-B5-E2f" secondAttribute="top" constant="678" id="29c-fI-24B"/>
+                                    <constraint firstAttribute="bottom" secondItem="b3N-MT-BTy" secondAttribute="bottom" constant="50" id="Vlw-og-5ma"/>
+                                    <constraint firstItem="b3N-MT-BTy" firstAttribute="leading" secondItem="Ww8-B5-E2f" secondAttribute="leading" constant="20" id="Yrz-yU-yVz"/>
+                                    <constraint firstAttribute="bottom" secondItem="2P9-7e-70w" secondAttribute="bottom" constant="50" id="gig-WV-XQr"/>
+                                    <constraint firstItem="2P9-7e-70w" firstAttribute="top" secondItem="Ww8-B5-E2f" secondAttribute="top" constant="678" id="w1g-FE-KyT"/>
+                                    <constraint firstAttribute="trailing" secondItem="2P9-7e-70w" secondAttribute="trailing" constant="20" id="wSv-ZP-gwD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ww8-B5-E2f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3Bj-eL-bgm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ww8-B5-E2f" secondAttribute="bottom" id="lHh-Me-nZp"/>
+                            <constraint firstItem="Ww8-B5-E2f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sJx-KW-Jjr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ww8-B5-E2f" secondAttribute="trailing" id="uMt-YU-bQW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnFacebook" destination="b3N-MT-BTy" id="VEq-L9-4le"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-682" y="-115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
